@@ -1,0 +1,76 @@
+.footer{
+    background-color: rgb(184, 184, 184);
+    padding:20px;
+    margin: auto;
+}
+.footer-content{
+    margin: auto;
+}
+.social-link{
+    text-align:center;
+}
+.social-link .fa{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border: 1px solid green;
+    border-radius: 50px;
+    margin: 40px 5px 0;
+    color: green;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.social-link .fa:hover{
+    background-color: green;
+    color: #fff;
+    transform: translateY(-7px);
+}
+.social-link p{
+    font-size: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footer-right{
+    text-align: right;
+}
+.footer-left{
+    text-align: left;
+}
+.footer-left h2, .footer-right h2{
+    font-family: sans-serif;
+    font-size: 18px;
+    color: green;
+    font-weight: bold;
+}
+.footer-right p,.footer-left p{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.footer-right i{
+    color: green;
+}
+.footer-img{
+    padding: 0;
+
+}
+.footer-img img{
+    width: 200px;
+    margin-top: -80px;
+    margin-bottom: -70px;
+    margin-left: -30px;
+    height: 200px;
+}
+.back-to-top:hover{
+    transform: translateY(-7px);
+    background: green;
+    color: #fff;
+}
+.footer-left a{
+    color: rgb(29, 28, 28);
+    font-weight: bold;
+    
+}
+.footer-left a:hover{
+    color: green;
+    text-decoration: none;
+}

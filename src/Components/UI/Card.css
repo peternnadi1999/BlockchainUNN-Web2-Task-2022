@@ -1,0 +1,7 @@
+.headers{
+    background:linear-gradient(rgb(0,0,0,0.1),rgb(49, 207, 49)), url(../images/team.jpg);
+    height: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
